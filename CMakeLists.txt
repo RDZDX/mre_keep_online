@@ -4,7 +4,7 @@ project ("mre_keep_online")
 
 set(APP_NAME "mre_keep_online")
 set(DEVELOPER_NAME "RDZDX")
-set(RAM "50") #Ram requirement (in kb)
+set(RAM "25") #Ram requirement (in kb)
 set(IMSI "1234567890" CACHE STRING "Imsi of first SIM-card")
 set(API "ProMng HTTP TCP Sec UDP") #Api for app,
 set(APPID "0") #App id, special values: -1 is personal (imsi), 0 is in developing
